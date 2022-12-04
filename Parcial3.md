@@ -41,10 +41,10 @@ M[100,100] para insertar la matriz, N para preguntar el numero del tamaño de la
 N=3
 Num=5
 #### 3.5 Salidas
-Saldra la matriz rellenada con el numero.
-[5,5,5]
-[5,5,5]
-[5,5,5]
+#### Saldra la matriz rellenada con el numero.
+#### [5,5,5]
+#### [5,5,5]
+#### [5,5,5]
 
 ### Ejercicio 4. Rellenar una matriz cuadrada NxN con numeros consecutivos.
 #### 4.1 Analisis
@@ -58,9 +58,9 @@ Una matriz M[100,100] y un contador C=0, Tamaño de la matriz T y sumar el conta
 T=3
 #### 4.5 Salidas
 Imprimir la matriz
-[1,2,3]
-[4,5,6]
-[7,8,9]
+#### [1,2,3]
+#### [4,5,6]
+#### [7,8,9]
 
 ### Ejercio 5. Rellenar una matriz cuadrada NxN con un mismo numero en cada renglon
 #### 5.1 Analisis 
@@ -72,49 +72,61 @@ Teniendo una matriz cuadrada, ir rellenando cada renglon completo con un mismo n
 #### 5.4 Entradas
 Matriz M[100,100] C=1 para contador, N para preguntar tamaño.
 N=3
-#### 5.5
-[1,1,1]
-[2,2,2]
-[3,3,3]
+#### 5.5 Salidas
+#### [1,1,1]
+#### [2,2,2]
+#### [3,3,3]
 
 ### Ejercicio 6. Generar una matriz NxN
-[1,0,0]
-[0,2,0]
-[0,0,3]
-#### 6.1 Analisis
-Se requiere un inicio, para ingresar el valor de N que sera de 5, posteriomente un proceso donde se saque su cuadrado con NxN para despues dar fin al programa
+### [1,0,0]
+### [0,2,0]
+### [0,0,3]
+#### 6.1 Analisis 
+En una matriz cuadradada NxN Ocupamos que el primer numero del renglon sea 1 y los demas 0, en el siguiente renglon el primer sea 0 el siguiente 2 y los demas 0
+y asi sucesivamente.
 #### 6.2 Diagrama
-![dfd 6](https://user-images.githubusercontent.com/113472808/190938266-29e269f7-e5ce-45e4-a663-7951dabb3f3d.jpg)
+![dfd6P2](https://user-images.githubusercontent.com/113472808/205505028-82673542-6c8c-4ed1-80b7-9bfbab4e706d.png)
 #### 6.3 Prueba de escritorio
-![Prueba6](https://user-images.githubusercontent.com/113472808/190938291-fef70064-aac0-4b32-8698-f33c87e781d5.PNG)
+
 #### 6.4 Entradas
-Ninguna, en este caso solo se le imparte el valor de 5 a N
+T para tamaño de matriz, M[100,100] para la matriz.
+T=3
 #### 6.5 Salidas 
-NxN
+Imprimir la matriz
+#### [1,0,0]
+#### [0,2,0]
+#### [0,0,3]
 
-### Ejercicio 7. Pregunte al usuario el valor de N y obtenga su cuadrado
+### Ejercicio 7. Convertir una matriz con numeros establecidos a Vector
 #### 7.1 Analisis
-Se requiere un inicio, se hara una entrada de datos para saber el valor que se le dara a N y posteriormente se hara un proceso de datos para sacar su cuadrado mediante NxN para dar fin al programa.
+En una matriz de NxN establecidos convertir cada fila a 1 mismo array de manera consecutiva
 #### 7.2 Diagrama
-![dfd 7](https://user-images.githubusercontent.com/113472808/190938513-d062cebd-062a-4671-a71b-54cc9d0cc237.jpg)
+![dfd7P2](https://user-images.githubusercontent.com/113472808/205505279-0dcf8995-4150-4fe4-a8c7-9344c11b7b9a.png)
 #### 7.3 Prueba de escritorio
-![Prueba7](https://user-images.githubusercontent.com/113472808/190938531-1b44c3a1-0af2-4a56-a858-bfa062d939ac.PNG)
-#### 7.4 Entradas
-Se solicita el valor de N para dar paso a la operacion
-#### 7.5 Salidas
-NxN
 
-### Ejercicio 8. Pregunte el año de nacimiento y registre su edad
+#### 7.4 Entradas
+M[] tamaño de matriz, V[] tamaño del vector, Contador C=1, N para tamaño
+#### 7.5 Salidas
+#### [1,2,3]   [1]
+#### [4,5,6]   [2]
+#### [7,8,9]   [3]
+####           [4]
+####           [5]
+####           [6]
+####           [ETC]
+
+### Ejercicio 8. El 1-B quiere conocer le promedio por persona y por materia, ademas la materia con mejor promedio grupal, y al alumno con mejor promedio
+### son 7 materias y 33 alumnos. Mencione alumnos en riesgo (Con al menos 1 materia en riesgo)
 #### 8.1 Analisis
-Se requiere un inicio, se hara una entrada de datos para conocer el año de nacimiento del usuario, posteriormente se hara un proceso para calcular su edad restando a 2022 el año de nacimiento de la persona, para despues dar fin al programa.
+Necesitamos una matriz con 33 estudiantes, y 10 columnas para los datos de alumnos, materias, alumnos en riesgo, y promedios.
 #### 8.2 Diagrama
-![dfd 8](https://user-images.githubusercontent.com/113472808/190938702-9e14ccb2-de84-4b85-85e8-f385b68505cc.jpg)
+![dfd8P2](https://user-images.githubusercontent.com/113472808/205505620-c1de1a28-7fbc-42a9-a1fd-1e31e9f5368b.png)
 #### 8.3 Prueba de escritorio
-![Prueba8](https://user-images.githubusercontent.com/113472808/190938716-8d8b5a2f-56ba-4eef-9429-7394177dfb6b.PNG)
+
 #### 8.4 Entradas
-Se pregunta al usuario su año de nacimiento registrado como "anac"
+Ingresar la matriz con los tamaños establecidos, que alumno es, materia, y alumnos en riesgo y promedios
 #### 8.5 Salidas
-2022-anac
+Imprimir la matriz.
 
 ### Ejercicio 9. Pregunte el año actual, año de nacimiento del usuario y calcule su edad
 #### 9.1 Analisis
