@@ -8,7 +8,7 @@ y hacer lo mismo con otro array para los semestres de cada estudiante.
 #### 1.2 Diagrama
 ![dfd1P2](https://user-images.githubusercontent.com/113472808/205503715-780a14b7-79c8-4177-b1ae-14fcafa25b20.png)
 #### 1.3 Prueba de escritorio
-
+![image](https://user-images.githubusercontent.com/113472808/205508967-441f72bf-abd5-4cb4-88ba-504dc356fbe0.png)
 #### 1.4 Entradas
 Requerimos un array para los semestres, uno para la edad, preguntar el tamaño del array o la cantidad de estudiantes, preguntar edades y semestres.
 #### 1.5 Salidas
@@ -22,7 +22,7 @@ despues imprimirlo.
 #### 2.2 Diagrama
 ![dfd2P2](https://user-images.githubusercontent.com/113472808/205503873-e9143d7f-acd8-4191-8f06-3aecf147819b.png)
 #### 2.3 Prueba de escritorio
-
+![image](https://user-images.githubusercontent.com/113472808/205508976-959377df-1fad-42b0-a672-ebfe2f046123.png)
 #### 2.4 Entradas
 Usamos una matriz 100,2 para dar libertad de tamaño, sabiendo que son 2 columnas nomas, N para cantidad de estudiantes, E para preguntar edad
 y Sem para preguntar semestre.
@@ -35,7 +35,7 @@ Ocupamos una matriz que tenga misma cantidad de filas que de columnas (NxN) pedi
 #### 3.2 Diagrama
 ![dfd3P2](https://user-images.githubusercontent.com/113472808/205504304-3021c2dc-c881-47b2-b8bc-dd3e76fbde40.png)
 #### 3.3 Prueba de Escritorio
-
+![image](https://user-images.githubusercontent.com/113472808/205509001-45439bc4-3911-4d80-8d95-0eb0daa39d31.png)
 #### 3.4 Entradas
 M[100,100] para insertar la matriz, N para preguntar el numero del tamaño de la matriz y Num para preguntar el numero con el que rellenaremos la matriz.
 N=3
@@ -52,7 +52,7 @@ Requerimos una matriz cuadrada, preguntar el tamaño, y con un contador que empi
 #### 4.2 Diagrama
 ![dfd4P2](https://user-images.githubusercontent.com/113472808/205504440-bafd7917-27df-4342-b2b0-091a2510d6d6.png)
 #### 4.3 Prueba de escritorio
-
+![image](https://user-images.githubusercontent.com/113472808/205509010-f60cd5a7-a324-4b41-8c1f-4d40ab4c9ec2.png)
 #### 4.4 Entradas
 Una matriz M[100,100] y un contador C=0, Tamaño de la matriz T y sumar el contador
 T=3
@@ -68,7 +68,7 @@ Teniendo una matriz cuadrada, ir rellenando cada renglon completo con un mismo n
 #### 5.2 Diagrama
 ![dfd5P2](https://user-images.githubusercontent.com/113472808/205504582-e9b82c22-a3d1-4d09-b568-c428f49c7b3f.png)
 #### 5.3 Prueba de escritorio
-
+![image](https://user-images.githubusercontent.com/113472808/205509022-065885b6-d24b-4ac0-b2fd-73c115ca50f5.png)
 #### 5.4 Entradas
 Matriz M[100,100] C=1 para contador, N para preguntar tamaño.
 N=3
@@ -87,7 +87,7 @@ y asi sucesivamente.
 #### 6.2 Diagrama
 ![dfd6P2](https://user-images.githubusercontent.com/113472808/205505028-82673542-6c8c-4ed1-80b7-9bfbab4e706d.png)
 #### 6.3 Prueba de escritorio
-
+![image](https://user-images.githubusercontent.com/113472808/205509032-6e09b0e3-2183-4323-8880-83de9f4d8dbb.png)
 #### 6.4 Entradas
 T para tamaño de matriz, M[100,100] para la matriz.
 T=3
