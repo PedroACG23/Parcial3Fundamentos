@@ -103,7 +103,7 @@ En una matriz de NxN establecidos convertir cada fila a 1 mismo array de manera 
 #### 7.2 Diagrama
 ![dfd7P2](https://user-images.githubusercontent.com/113472808/205505279-0dcf8995-4150-4fe4-a8c7-9344c11b7b9a.png)
 #### 7.3 Prueba de escritorio
-
+![image](https://user-images.githubusercontent.com/113472808/205520309-a5f43643-9592-4f9b-a792-d849f4a66f89.png)
 #### 7.4 Entradas
 M[] tamaño de matriz, V[] tamaño del vector, Contador C=1, N para tamaño
 #### 7.5 Salidas
@@ -122,7 +122,7 @@ Necesitamos una matriz con 33 estudiantes, y 10 columnas para los datos de alumn
 #### 8.2 Diagrama
 ![dfd8P2](https://user-images.githubusercontent.com/113472808/205505620-c1de1a28-7fbc-42a9-a1fd-1e31e9f5368b.png)
 #### 8.3 Prueba de escritorio
-
+![image](https://user-images.githubusercontent.com/113472808/205521328-799bc5fa-0c74-4a4c-8f4c-b690a86ce09e.png)
 #### 8.4 Entradas
 Ingresar la matriz con los tamaños establecidos, que alumno es, materia, y alumnos en riesgo y promedios
 #### 8.5 Salidas
@@ -136,7 +136,7 @@ e imprimir la suma de los numeros en la diagonal inversa, despues comparar los v
 #### 9.2 Diagrama
 ![dfd9P2](https://user-images.githubusercontent.com/113472808/205506939-d10459eb-a692-4a5d-a186-1564eb42fae6.png)
 #### 9.3 Prueba de escritorio
-
+![image](https://user-images.githubusercontent.com/113472808/205521880-52426396-af85-419f-bd46-b65fda910179.png)
 #### 9.4 Entradas
 M[] SumaD=0 SumaI=0 N para el rango, Num para los numeros.
 N=2
@@ -153,7 +153,7 @@ en un vector.
 #### 10.2 Diagrama
 ![dfd10P2](https://user-images.githubusercontent.com/113472808/205507387-45de0103-bfd3-4cdb-b6ec-0fb151cba77a.png)
 #### 10.3 Prueba de escritorio
-
+![image](https://user-images.githubusercontent.com/113472808/205522170-d470697f-9663-4fac-b625-16e3d7ac9872.png)
 #### 10.4 Entradas
 A[] M[] N para el numero de filas, M para numero de COlumnas.
 #### 10.5 Salidas
@@ -165,7 +165,7 @@ Si N=3 El array deberia ser [1,3,6]
 #### 11.2 Diagrama
 ![dfd11P2](https://user-images.githubusercontent.com/113472808/205507622-7540808b-86f2-4b6c-9e55-64d50322f299.png)
 #### 11.3 Prueba de escritorio
-
+![image](https://user-images.githubusercontent.com/113472808/205522312-dc07a459-a090-4d18-a25f-f1a58b278a6b.png)
 #### 11.4 Entradas
 A[100] N para tamaño.
 N=6
