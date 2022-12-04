@@ -6,63 +6,81 @@ Requerimos vectores, 2 en especifico, en uno de ellos vamos a ir almacenando la 
 al tener el dato se ira guardando en cada uno de los espacios de array, que tendremos que preguntar cuanto mide el array, 
 y hacer lo mismo con otro array para los semestres de cada estudiante.
 #### 1.2 Diagrama
-
+![dfd1P2](https://user-images.githubusercontent.com/113472808/205503715-780a14b7-79c8-4177-b1ae-14fcafa25b20.png)
 #### 1.3 Prueba de escritorio
-![Prueba1](https://user-images.githubusercontent.com/113472808/190934123-5d7101b8-e398-423c-8488-aa24685bf4a5.PNG)
+
 #### 1.4 Entradas
-Ningua, solo se asigna la impresion de "Nombre"
+Requerimos un array para los semestres, uno para la edad, preguntar el tamaño del array o la cantidad de estudiantes, preguntar edades y semestres.
 #### 1.5 Salidas
-Nombre
+Imprimir los 2 arrays.
 
-### Ejercicio 2. Imprimir un dia de la semana.
+### Ejercicio 2. Almacenar en una matriz el semestre y la edad de N estudiantes.
 #### 2.1 Analisis
-Se requiere insertar un inicio y posteriormente una salida de datos que imprima un dia de la semana como texto "Dia" para dar fin con el programa
+Ocupamos una matriz para almacenar 2 datos, el semestre y la edad, ya con esto sabemos que solo son 2 columnas de matriz, se ocupa preguntar la cantidad
+de filas mediante saber cuantos estudiantes son, una vez sabiendo los estudiantes preguntamos la edad y almacenamos el dato al igual con el semestre, para
+despues imprimirlo.
 #### 2.2 Diagrama
-![dfd 2](https://user-images.githubusercontent.com/113472808/190934387-22f836eb-6e76-45df-aa0c-242d0ec8c389.jpg)
+![dfd2P2](https://user-images.githubusercontent.com/113472808/205503873-e9143d7f-acd8-4191-8f06-3aecf147819b.png)
 #### 2.3 Prueba de escritorio
-![Prueba2](https://user-images.githubusercontent.com/113472808/190934395-b322a5f3-69b3-4a48-bbda-c0b0133ad699.PNG)
+
 #### 2.4 Entradas
-Ninguna, solo se asigna la impresion de "Lunes"
+Usamos una matriz 100,2 para dar libertad de tamaño, sabiendo que son 2 columnas nomas, N para cantidad de estudiantes, E para preguntar edad
+y Sem para preguntar semestre.
 #### 2.5 Salidas
-Lunes
+Imprimimos la matriz mostrando edad y semestre
 
-### Ejercicio 3. Escribir un algoritmo que escriba "Hola, Nombre"
+### Ejercicio 3. Rellenar una matriz cuadrada NxN con un numero leido del teclado.
 #### 3.1 Analisis
-Se requiere insertar un inicio, se pedira el nombre en un proceso para asignar la variable, imprimira "Hola Nombre" para dar fin al programa
+Ocupamos una matriz que tenga misma cantidad de filas que de columnas (NxN) pedir el tamaño, y con preguntar un numero rellenar toda la matriz con ese numero.
 #### 3.2 Diagrama
-![dfd 3](https://user-images.githubusercontent.com/113472808/190934764-ff64f1c5-dc12-473d-b740-e09dd2cd1cb4.jpg)
+![dfd3P2](https://user-images.githubusercontent.com/113472808/205504304-3021c2dc-c881-47b2-b8bc-dd3e76fbde40.png)
 #### 3.3 Prueba de Escritorio
-![Prueba3](https://user-images.githubusercontent.com/113472808/190934783-b89d1853-b4ab-43c9-affc-b8ecfe692d00.PNG)
+
 #### 3.4 Entradas
-Ninguna, solo se asigna una cadena con el Nombre para posteriormente imprimir el mensaje "Hola,Nombre" para dar fin al programa
+M[100,100] para insertar la matriz, N para preguntar el numero del tamaño de la matriz y Num para preguntar el numero con el que rellenaremos la matriz.
+N=3
+Num=5
 #### 3.5 Salidas
-Hola Pedro
+Saldra la matriz rellenada con el numero.
+[5,5,5]
+[5,5,5]
+[5,5,5]
 
-### Ejercicio 4. Preguntar al usuario su nombre y decirle "Buen dia,Nombre"
+### Ejercicio 4. Rellenar una matriz cuadrada NxN con numeros consecutivos.
 #### 4.1 Analisis
-Se requiere insertar un inicio, el programa preguntara el nombre al usuario, lo asignara en una entrada de datos y soltara una salida imprimiendo "Buen dia,Nom" para dar fin al programa
+Requerimos una matriz cuadrada, preguntar el tamaño, y con un contador que empiece en 1 y vaya sumando ir yendo cada renglon de cada columna sumando 1
 #### 4.2 Diagrama
-![dfd 4](https://user-images.githubusercontent.com/113472808/190935118-912cb3bb-6365-4797-8fe6-52d7863bb308.jpg)
+![dfd4P2](https://user-images.githubusercontent.com/113472808/205504440-bafd7917-27df-4342-b2b0-091a2510d6d6.png)
 #### 4.3 Prueba de escritorio
-![Prueba4](https://user-images.githubusercontent.com/113472808/190936214-9e9812d1-cda7-40c5-a980-049e0c0cd13b.PNG)
+
 #### 4.4 Entradas
-Se pide que se introduzca el nombre de la persona
+Una matriz M[100,100] y un contador C=0, Tamaño de la matriz T y sumar el contador
+T=3
 #### 4.5 Salidas
-Buen dia Pedro
+Imprimir la matriz
+[1,2,3]
+[4,5,6]
+[7,8,9]
 
-### Ejercio 5. Escriba un diagrama de flujo que calcule el cuadrado de 2
+### Ejercio 5. Rellenar una matriz cuadrada NxN con un mismo numero en cada renglon
 #### 5.1 Analisis 
-Se requiere un inicio, para ingresar un proceso de datos para la operacion 2x2 para imprimir el resultado y dar fin al programa
+Teniendo una matriz cuadrada, ir rellenando cada renglon completo con un mismo numero y al brincar al siguiente renglon cambiar el numero con un contador.
 #### 5.2 Diagrama
-![dfd 5](https://user-images.githubusercontent.com/113472808/190936627-cec4d470-d3fd-4521-9b73-f67b7e185cf7.jpg)
+![dfd5P2](https://user-images.githubusercontent.com/113472808/205504582-e9b82c22-a3d1-4d09-b568-c428f49c7b3f.png)
 #### 5.3 Prueba de escritorio
-![Prueba5](https://user-images.githubusercontent.com/113472808/190936639-8b5e7f29-d8ee-477c-835b-0f9d3f9f9726.PNG)
-#### 5.4 Entradas
-Ninguna solo se realiza el proceso 2x2
-#### 5.5
-2x2
 
-### Ejercicio 6. Escriba un algoritmo que calcule el cuadrado de N para N=5
+#### 5.4 Entradas
+Matriz M[100,100] C=1 para contador, N para preguntar tamaño.
+N=3
+#### 5.5
+[1,1,1]
+[2,2,2]
+[3,3,3]
+
+### Ejercicio 6. Generar una matriz NxN
+[1,0,0]
+[0,2,0]
+[0,0,3]
 #### 6.1 Analisis
 Se requiere un inicio, para ingresar el valor de N que sera de 5, posteriomente un proceso donde se saque su cuadrado con NxN para despues dar fin al programa
 #### 6.2 Diagrama
